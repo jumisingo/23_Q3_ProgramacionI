@@ -23,6 +23,7 @@ public class Estudiante {
     }
     
     public int CalcularCreditosRestantes(){
+        //calcula creditos restantes
         return  this.carrera.creditos - this.creditosCursados;
     }
     
