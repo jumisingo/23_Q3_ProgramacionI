@@ -20,12 +20,14 @@ public class Bannio {
     int shampoo = 100;
     int jabon = 50;
     
-    public void Lavarse_dientes(){
+    public void Lavarse_dientes(int dientes){
         if(this.usosPastaDental<0){
             JOptionPane.showMessageDialog(null, "SE acabó la pasta dental.");
         }else{
             this.usosPastaDental--;
         }
+        
+        JOptionPane.showMessageDialog(null, "Se lava los"+ dientes+" dientes.");
     }
     
     public void Banniarse(){
