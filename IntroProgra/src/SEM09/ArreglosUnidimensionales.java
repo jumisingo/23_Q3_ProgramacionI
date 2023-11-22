@@ -28,7 +28,6 @@ public class ArreglosUnidimensionales {
              System.out.println(arregloEdades[i]);
          }
         
-        
         Estudiante arregloEstudiante[];
         arregloEstudiante = new Estudiante[10];
         
